@@ -2,6 +2,15 @@
 
 function filterInStockProducts(products) {
   // เริ่มเขียนโค้ดตรงนี้
+  let productlist=[]
+  for(let product of products){
+    if(product.quantity>0){
+      productlist.push(product)
+    }else{
+
+    }
+    }
+    return productlist
 }
 
 // ตัวอย่างการใช้งาน
